@@ -1,9 +1,9 @@
 from langchain.llms import Groq
 from langchain_core.prompts import PromptTemplate
 from langgraph.graph import StateGraph, END
-
+from pydantic import Basemodel
 # Step 1: Define the state
-class AgentState(dict):
+class AgentState():
     pass
 
 # Step 2: Initialize Groq LLM
