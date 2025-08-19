@@ -2,7 +2,7 @@ from langchain.llms import Groq
 from langchain_core.prompts import PromptTemplate
 from langgraph.graph import StateGraph, END
 from pydantic import Basemodel
-import os
+
 
 from python_dotenv import dotenv
 
